@@ -5,6 +5,15 @@
 
     <div class="row">
         <div class="col-md-12">
+        @if(session('success'))
+            <x-alert type="success">
+                {{session('success')}}
+            </x-alert>
+        @elseif(session('error'))
+            <x-alert type="error">
+                {{session('error')}}
+            </x-alert>
+        @endif
             <div class="card">
                 <div class="card-header">
                     <h3>Category
