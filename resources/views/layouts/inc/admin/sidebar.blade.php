@@ -2,7 +2,7 @@
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
   <ul class="nav">
     <li class="nav-item">
-      <a class="nav-link" href="index.html">
+      <a class="nav-link" href="{{url('admin/dashboard')}}">
         <i class="mdi mdi-home menu-icon"></i>
         <span class="menu-title">Dashboard</span>
       </a>
@@ -24,7 +24,8 @@
       </a>
       <div class="collapse" id="form-elements">
         <ul class="nav flex-column sub-menu">
-          <li class="nav-item"><a class="nav-link" href="pages/forms/basic_elements.html">Basic Elements</a></li>
+          <li class="nav-item"><a class="nav-link" href="{{url('admin/category/create')}}">Add Category</a></li>
+          <li class="nav-item"><a class="nav-link" href="{{url('admin/category')}}">View Category</a></li>
         </ul>
       </div>
     </li>
@@ -36,7 +37,8 @@
       </a>
       <div class="collapse" id="charts">
         <ul class="nav flex-column sub-menu">
-          <li class="nav-item"> <a class="nav-link" href="pages/charts/chartjs.html">ChartJs</a></li>
+          <li class="nav-item"> <a class="nav-link" href="{{url('admin/product/create')}}">Add Product</a></li>
+          <li class="nav-item"> <a class="nav-link" href="{{url('admin/product')}}">View Product</a></li>
         </ul>
       </div>
     </li>
