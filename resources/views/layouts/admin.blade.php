@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="{{asset('admin_assets/css/style.css')}}">
     <!-- endinject -->
     <link rel="shortcut icon" href="{{asset('admin_assets/favicon.png')}}" />
+     <!-- Fontawesome icons -->
+    <script src="https://kit.fontawesome.com/5558db2d16.js" crossorigin="anonymous"></script>
 
     @livewireStyles
 </head>
